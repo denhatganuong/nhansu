@@ -4,6 +4,7 @@ import TabNav from '@/components/TabNav';
 
 // Danh sách Tab của hệ thống — thêm module mới thì thêm 1 dòng ở đây
 const ALL_TABS = [
+  { key: 'khai-bao', label: 'Khai báo', href: '/dashboard/khai-bao' },
   { key: 'nhan-vien', label: 'Nhân viên', href: '/dashboard/nhan-vien' },
   // { key: 'lich-lam', label: 'Lịch làm', href: '/dashboard/lich-lam' },
   // { key: 'cham-cong', label: 'Chấm công', href: '/dashboard/cham-cong' },
